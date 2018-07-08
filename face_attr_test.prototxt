@@ -802,7 +802,7 @@ layer
     name: "loss_reg_age"
     type: "EuclideanLoss"
     bottom: "reg_age"
-    bottom: "pts_valid"
+    bottom: "pts"
     top: "loss_age"
     loss_weight: 1
 }
